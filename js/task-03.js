@@ -15,7 +15,7 @@ const images = [
 const list = document.querySelector('.gallery');
 console.log(list);
 const galleryList = document.createElement('li');
-// galleryImageList = galleryList.createElement('img');
+
 const markup = images
   .map(
     (image) =>
